@@ -1,0 +1,16 @@
+# Example .choreo/component-config.yaml file
+
+name: my-choreo-component
+description: My Choreo Component Description
+version: 1.0.0
+inputs:
+  - name: inputParam1
+    description: Description of inputParam1
+    type: string
+  # Add more inputs as needed
+outputs:
+  - name: outputParam1
+    description: Description of outputParam1
+    type: string
+  # Add more outputs as needed
+

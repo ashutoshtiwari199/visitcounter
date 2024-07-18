@@ -7,7 +7,7 @@ app.use(cookieParser());
 
 let visitors = new Set();
 
-app.get('/', (req, res) => {
+app.get('/getcount', (req, res) => {
   const visitorId = req.cookies.visitorId;
 
   if (!visitorId || !visitors.has(visitorId)) {
